@@ -1,0 +1,23 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-image: url("../photos/art1.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-size: 72px;
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 1rem;
+    color: white;
+    text-shadow: 2px 2px black;
+}
