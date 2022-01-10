@@ -5,7 +5,8 @@
 }
 
 body{
-  background-image: url("../photos/art1.jpeg");
+  /* background-image: url("../photos/art1.jpeg"); */
+  background-color: #212121;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,6 +19,37 @@ h1{
     width: 100%;
     /* border: 2px solid red; */
     margin-top: 1rem;
-    color: white;
+    color: #f7f7f7;
     text-shadow: 2px 2px black;
+}
+
+/* navbar */
+
+.navbar{
+    /* border: 1px solid red; */
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #f7f7f7;
+    font-size: 1.3rem;
+}
+
+nav a:hover{
+    color: darkgrey;
+}
+
+ul:first-child{
+    font-size: 3rem;
 }
